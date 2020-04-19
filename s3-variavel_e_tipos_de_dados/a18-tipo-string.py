@@ -21,3 +21,9 @@ print(nome[::-1])
 
 # replace -> substituir palavras
 print(nome.replace('F', 'f').replace('S', 's'))
+
+teste = 'nome sobre '
+print(teste.strip())  # o método strip remove espaço no final da string
+
+print(teste.title()) # o método title faz com que a primeira letra seja maiúscula
+
